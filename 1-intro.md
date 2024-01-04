@@ -20,6 +20,62 @@ Basically, a text only way to use your computer. It will take commands to make t
 NOTE: Commandline for programming is usually for Linux/MacOSX (unix-systems)
 
 
+## ls - navigation 
+
+- `ls` command let's us see the files and directories in the current location. 
+
+### How to use ls command?
+
+- In cmd, We just need to type `ls` and enter to see folders
+
+
+## pwd - navigation
+
+### What is pwd command?
+- `pwd` is a command to log/show the current directory the user is in to the console as text. 
+
+- The current directory the user is in = working directory (wd)
+
+- Showing text to the console = printing (p)
+
+- pwd = print the current folder the user is in to the console as text.
+
+### Why use pwd?
+1. It is useful to show where you are in the filesystem along with `ls`
+
+### How to use `pwd`?
+
+type `pwd` into the cmdline
+
+
+## cd
+
+`cd` = change folder (directory)
+
+- It's how we navigate filesystem on cmdline
+
+- If we use `..` with `cd`, we go to the parent folder from our current working directory. 
+
+Example:
+
+```bash
+cd .. # go back up 1 directory
+
+```
+
+## mkdir 
+
+Creates a new directory in the location that comes after the command. 
+
+
+There are 2 ways to make a new folder:
+
+cd into the folder you want to nest a folder in or
+`cd home/ && mkdir parker`
+
+make a folders using a relative path
+`mkdir /home/parker`
+
 
 RESOURCES:
 - [1]:[Command Line Command](https://www.codecademy.com/articles/command-line-commands)
